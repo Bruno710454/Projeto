@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href=""  class="ho">Adicionar</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="" class="ho">Criador</a>
+            </li>
+        </ul>
+        <ul>
+            <li class="menu">
+                <a href="" onmouseenter="entra()" onmouseleave="sair()">Sobre</a>
+                <ul class="lista" id="sub" onmouseenter="entra()" onmouseleave="sair()">
+                    <li>sair</li>
+                    <li>estudar</li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <div class="inicio">
+        <div class="title">
+            <h1 style="color:#262B37">Aprenda a usar nosso programa</h1>
+            <p style="color:#262B37">Nos criamos um manual com todo carinho para que nossos usuarios pudessem aprender a fazer uso de nosso programa.https://www.flaticon.com/search?word=memory</p>
+            <button style="background-color: #1F43C2;">Manual</button>
+        </div>
+        <div >
+            <img src="booking (2).png" alt="">
+        </div>
+    </div>
+    <main>
+        <div class="apre">
+            <div>
+                <h1 class="anima1">A pratica leva a perfeição</h1>
+            </div>
+            <div>
+                <p class="anima2">Descubra o poder da sua mente e seu potencial , <br>a pratica diaria leva perfeição. <br> Adicione um novo cartão ao lado.</p>
+            </div>
+            <div class="brain">
+                <img src="brain.png" alt="" class="anima2" >
+            </div>
+        </div>
+        <div class="form">
+            <form action="">
+                <p>Selecione um baralho</p>
+                <input type="text">
+                <p>Back</p>
+                <input type="text">
+                <p>Front</p>
+                <input type="text">
+                <div>
+                    <button>Salvar</button>
+                    <button>Estudar</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <section>
+        <div>
+            <div>
+                <h1>Beneficios</h1>
+                <div class="und">.</div>
+            </div>
+            <section class="bene">
+                <fieldset class="cate">
+                    <div>
+                        <p>aprendizado rápido</p>
+                    </div>
+                    <div>
+                        <img src="calendar.png" alt="">
+                    </div>
+                </fieldset>
+                <fieldset class="cate">
+                    <div>
+                        <p>Memoria a longo prazo</p>
+                    </div>
+                    <div>
+                        <img src="amnesia.png" alt="">
+                    </div>
+                </fieldset>
+                <fieldset class="cate">
+                    <div>
+                        <p>Repetição espaçada</p>
+                    </div>
+                    <div>
+                        <img src="lightbulb.png" alt="">
+                    </div>
+                </fieldset>
+            </section>
+        </div>
+    </section>
+    <article>
+        <div>
+            <h1 id="p" style="font-weight: lighter;">Como funciona o método de repetição espaçada?</h1>
+        </div>
+        <div>
+            <p class="anima2">
+                Trata-se de uma técnica que requer a repetição do estudo de um certo conteúdo após determinados períodos. Assim, obtém-se o aprendizado mais consistente, mesmo com as limitações naturais da mente humana.
+                Ou seja, para evitar aquele problema da mente simplesmente sobrepor um conteúdo com outros, você estabelece repetições inteligentes e garante que o tema sempre volte à mente nos momentos certos.
+                 É como uma revisão sistemática do que se estudou depois do tempo que a mente normalmente esqueceria.
+                Assim, você põe o tema em evidência, driblando a capacidade de esquecimento e atenuando a curva.
+                De certa forma, essa técnica parece até intuitiva. Repetir conteúdos depois de estudar parece algo que todos os alunos fazem. 
+                Só que a diferença é clara: na repetição espaçada o ato de voltar ao que se estudou anteriormente se torna uma parte central do estudo.
+                Também se trabalha com limites rígidos e bem estabelecidos para obter o máximo de produtividade.
+            </p>
+        </div>
+        <div>
+            <h1 style="font-weight: lighter;">Conclusão</h1>
+        </div>
+        <div>
+            <p class="anima2">
+                A repetição espaçada é um método poderoso para otimizar o aprendizado, ao permitir que estudantes voltem a um assunto depois de um dado tempo.  
+                Com essas pausas, o cérebro consegue processar as informações e fixar os conteúdos, o que agiliza o processo e gera maior eficiência. 
+            </p>
+        </div>
+    </article>
+    <a href="https://web.whatsapp.com/send?phone-556299003232" class="whats" target="_blank">
+        <img src="whatsapp (2).png" alt="">
+    </a>
+</body>
+</html>
+<script>
+    function entra(){
+        var id = document.getElementById('sub');
+        id.style.display='block';
+        id.style.display='flex';
+        id.style.flexDirection='column';
+        id.style.justifyContent='space-around';
+        id.style.transition='1s';
+
+    }
+
+    function sair(){
+        var me = document.getElementById('sub');
+        me.style.display='none';
+        id.style.transition='1s';
+
+    }
+
+</script>

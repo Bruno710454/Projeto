@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto&display=swap');
+
+
+@keyframes animacao {
+    from{margin-left:-500px}
+    to{margin-left: 0px;}
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #20222A;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    justify-content:center;
+    width: 800px;
+    margin: auto;
+    padding: 50px;
+}
+
+main > div {
+    padding: 20px;
+}
+
+fieldset >legend {
+    margin: auto;
+}
+
+
+form > input {
+    color: #20222A;
+    border-width: 0px;
+    outline-width: 0px;
+    padding: 5px;
+}
+
+form > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    color: #20222A;
+    width:90px;
+    background-color: #1fa9c2;
+    color: rgb(214, 214, 214);
+    padding: 9px;
+    border-color: none;
+    border-width: 0px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+button:hover {
+
+    background-color: #54b9ca;
+}
+
+.apre {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.apre >.brain {
+    margin: auto;
+}
+
+
+.apre >div {
+    overflow: hidden;
+    width: 400px;
+
+}
+
+.anima1 {
+    animation: animacao;
+    animation-duration: 3s;
+    color: #1fa9c2;
+}
+
+.anima2 {
+    animation: animacao;
+    animation-duration: 4s;
+    color: #a7a7a7;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #393d47;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    transition: 0.8s;
+    padding: 20px;
+}
+
+header > ul {
+    padding: 20px;
+}
+
+
+.ho:hover {
+    background-color: #54b9ca;
+}
+
+form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #262B37;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.lista {
+    position: absolute;
+    display: none;
+    text-align: center;
+    background-color: #262B37;
+    border-radius: 8px;
+    margin-top: 15px;
+    transition: 1s;
+    
+}
+
+.lista > li {
+    padding: 16px;
+    transition: 1s;
+}
+
+.lista > li:hover {
+    background-color: cadetblue;
+}
+
+ul{
+    list-style: none;
+}
+
+/* ARTICLE */
+
+article > div {
+    padding: 25px;
+}
+
+
+article > div > p {
+    letter-spacing: 1px;
+    font-weight: lighter;
+    color: #a7a7a7;
+    width: 1200px;
+}
+
+article > div > h1 {
+    color: #56d0e6;
+    animation: animacao;
+    animation-duration: 3s;
+}
+
+/* SESSION */
+
+section {
+    background-color: #262B37;
+    padding: 30px;
+}
+
+section > div > h1 {
+    color: #b8b8b8;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.und {
+    background-color: #7bcad8;
+    width: 350px;
+    margin-top: 8px;
+    height: 2px;
+    border-radius: 3px;
+    color: #262B37;
+}
+
+/* WHATS */
+
+.whats {
+    position:fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+/* PICTURE */
+
+.inicio {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #7ed7e7;
+    padding: 20px;
+    height: 300px;
+    letter-spacing: 1px;
+
+}
+
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 550px;
+    height: 200px;
+    font-weight: lighter;
+}
+
+.brain {
+    margin: auto;
+    text-align: center;
+}
+
+
+/* BENEFICIO */
+
+.bene {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cate {
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 150px;
+    width: 200px;
+
+}
